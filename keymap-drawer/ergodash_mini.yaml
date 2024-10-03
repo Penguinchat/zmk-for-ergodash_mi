@@ -1,0 +1,62 @@
+layers:
+  Qwery: ['&#', RGB TOG, '1', '2', '3', '4', '5', UP ARROW, '6', '7', '8', '9', '0', 'MINUS #', EP ON, Q, W, E, R, T, DOWN ARROW, Y, U, I, O, P, 'RBKT #', EP OFF,
+    A, S, D, F, G, LEFT ARROW, H, J, K, L, ;, 'APOS #', LSHFT, Z, X, C, V, B, RIGHT ARROW, N, M, ',', ., /, 'ENTER #', BSPC, LCTRL, LALT, LGUI, SPACE, ENTER, ENTER,
+    ENTER, SPACE, RGUI, RALT, RCTRL, RGB TOG, '1', '2', '3', '4', '5', BSPC, BSPC, '6', '7', '8', '9', '0', '-', EP ON, Q, W, E, R, T, LSHFT, RSHFT, Y, U, I, O, P,
+    ']', EP OF, A, S, D, F, G, TAB, TAB, H, J, K, L, ;, ENTER, LSHFT, Z, X, C, LGUI, SPACE, ENTER, SPACE, '&ENTER', V, N, M, ',', .]
+  Flash:
+  - '&flash_macro'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
