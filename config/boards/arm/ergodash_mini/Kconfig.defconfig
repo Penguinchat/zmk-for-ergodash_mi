@@ -17,7 +17,7 @@ endif # BOARD_ERGODASH_MINI_LEFT
 if BOARD_ERGODASH_MINI_LEFT || BOARD_ERGODASH_MINI_RIGHT
 
 config BOARD
-    default "Ergodash_mini"
+    default "ergodash_mini"
 
 config ZMK_SPLIT
     default y
