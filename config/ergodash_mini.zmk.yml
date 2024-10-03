@@ -1,0 +1,15 @@
+file_format: "1"
+id: ergodash_mini
+name: Ergodash_mini
+url: https://github.com/tokyo2006/zmk-config-sofle
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+siblings:
+  - ergodash_mini_left
+  - ergodash_mini_right
