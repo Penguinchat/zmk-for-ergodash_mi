@@ -1,10 +1,7 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
-
 
 / {
     macros {
@@ -13,6 +10,7 @@
             #binding-cells = <0>;
             bindings = <&bootloader>;
         };
+
         layer_s: layer_s {
             label = "layer shift color";
             compatible = "zmk,behavior-macro";
@@ -87,47 +85,47 @@
     };
 
     behaviors {
-            hm: homerow_mods {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HOMEROW_MODS";
-                bindings = <&kp>, <&kp>;
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            bindings = <&kp>, <&kp>;
 
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;
-                quick-tap-ms = <180>;
-                flavor = "tap-preferred";
-            };
-
-            ltq: ltq {
-                compatible = "zmk,behavior-hold-tap";
-                label = "LTQ";
-                bindings = <&mo>, <&kp>;
-
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;
-                quick-tap-ms = <180>;
-            };
-
-            as: auto_shift {
-                compatible = "zmk,behavior-hold-tap";
-                label = "AUTO_SHIFT";
-                bindings = <&kp>, <&kp>;
-
-                #binding-cells = <2>;
-                tapping-term-ms = <135>;
-                quick-tap-ms = <0>;
-            };
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <180>;
+            flavor = "tap-preferred";
         };
+
+        ltq: ltq {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LTQ";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <180>;
+        };
+
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTO_SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <135>;
+            quick-tap-ms = <0>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
 
         Qwery {
             bindings = <
-&rgb_ug RGB_TOG    &kp N1   &kp N2    &kp N3    &kp N4     &kp N5     &kp BSPC        &kp BSPC    &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS   
-&ext_power EP_ON   &kp Q    &kp W     &kp E     &kp R      &kp T      &kp LSHFT       &kp RSHFT   &kp Y      &kp U      &kp I      &kp O     &kp P      &kp RBKT
-&ext_power EP_OFF   &kp A    &kp S     &kp D     &kp F      &kp G      &kp TAB         &kp TAB     &kp H      &kp J      &kp K      &kp L     &kp SEMI   &kp ENTER
-&kp LSHFT          &kp Z    &kp X     &kp C     &kp V   &kp SPACE  &kp ENTER       &kp SPACE   &kp ENTER     &kp B      &kp N      &kp M     &kp COMMA  &kp DOT
+&rgb_ug RGB_TOG    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp BSPC   &kp BSPC   &kp N6     &kp N7  &kp N8  &kp N9  &kp N0     &kp MINUS
+&ext_power EP_ON   &kp Q   &kp W   &kp E   &kp R   &kp T      &kp LSHFT  &kp RSHFT  &kp Y      &kp U   &kp I   &kp O   &kp P      &kp RBKT
+&ext_power EP_OFF  &kp A   &kp S   &kp D   &kp F   &kp G      &kp TAB    &kp TAB    &kp H      &kp J   &kp K   &kp L   &kp SEMI   &kp ENTER
+&kp LEFT_GUI       &kp Z   &kp X   &kp C   &kp V   &kp SPACE  &kp ENTER  &kp SPACE  &kp ENTER  &kp B   &kp N   &kp M   &kp COMMA  &kp DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -136,15 +134,13 @@
 
         Flash {
             bindings = <
-&flash_macro  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-
+&flash_macro  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "Flash";
         };
     };
 };
- 
