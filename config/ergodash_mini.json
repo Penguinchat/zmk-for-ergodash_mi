@@ -1,5 +1,5 @@
 {
-"id": "ergodash_mini",
+    "id": "ergodash_mini",
     "name": "Ergodash_mini",
     "layouts": {
       "default_layout": {
@@ -63,7 +63,7 @@
             { "row": 3, "col": 10, "x":    15, "y":  3   , "label": "2\n10" },
             { "row": 3, "col": 11, "x":    16, "y":  3.25, "label": "2\n11" },
             { "row": 3, "col": 12, "x":    17, "y":  3.5 , "label": "2\n12" },
-            { "row": 3, "col": 13, "x":    18, "y":  3.5 , "label": "2\n13" },
+            { "row": 3, "col": 13, "x":    18, "y":  3.5 , "label": "2\n13" }
           ]
       }
     }
