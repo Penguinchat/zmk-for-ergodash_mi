@@ -1,6 +1,6 @@
 layers:
   Qwery: [RGB TOG, '1', '2', '3', '4', '5', BSPC, BSPC, '6', '7', '8', '9', '0', '-', EP ON, Q, W, E, R, T, LSHFT, RSHFT, Y, U, I, O, P, ']', EP OFF, A, S, D, F,
-    G, TAB, TAB, H, J, K, L, ;, ENTER, LSHFT, Z, X, C, LGUI, SPACE, ENTER, SPACE, ENTER, V, N, M, ',', .]
+    G, TAB, TAB, H, J, K, L, ;, ENTER, LSHFT, Z, X, C, LGUI, SPACE, ENTER, SPACE, ENTER, B, N, M, ',', .]
   Flash:
   - '&flash_macro'
   - {t: ▽, type: trans}
